@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import FloatingContact from "./components/FloatingContact";
+//import FloatingContact from "./components/FloatingContact";
 
 import Hero from "./sections/Hero";
 import TrustBar from "./sections/TrustBar";
@@ -30,7 +30,7 @@ export default function App() {
         <Location />
       </main>
       <Footer />
-      <FloatingContact />
+      {/* <FloatingContact /> */}
     </>
   );
 }
